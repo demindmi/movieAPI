@@ -1,7 +1,7 @@
 .movie {
-  margin: 1rem;
+  margin: 1rem 0rem;
   padding: 1rem;
-  background-color: #230052;
+  background-color: #2775b1;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   border-radius: 12px;
   text-align: center;
@@ -14,7 +14,7 @@
 }
 
 .movie h3 {
-  color: #eccf77;
+  color: #dcc157;
   margin: 0;
   font-size: 1rem;
 }

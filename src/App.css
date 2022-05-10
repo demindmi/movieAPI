@@ -11,8 +11,8 @@ section {
 button {
   font: inherit;
   cursor: pointer;
-  background: #230052;
-  border: 1px solid #230052;
+  background: #2775b1;
+  border: 1px solid #1d6399;
   color: white;
   padding: 0.75rem 2rem;
   border-radius: 20px;
@@ -24,6 +24,18 @@ button:focus {
 
 button:hover,
 button:active {
-  background-color: #460897;
-  border-color: #460897;
+  background-color: #2775b1;
+  border-color: #164568;
+}
+
+@media (max-width: 767px) {
+  section {
+    margin: 1rem auto;
+    width: 90%;
+    max-width: 40rem;
+    text-align: center;
+    background-color: white;
+    padding: 0.2rem 0.4rem;
+    border-radius: 12px;
+  }
 }
